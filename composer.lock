@@ -1268,12 +1268,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/monet-cms/dashboard.git",
-                "reference": "27156e1912e5198397a93c857f3e8da3ad435035"
+                "reference": "f3ea7e934e3e0213ae8d2a4e206ccf18816deaea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monet-cms/dashboard/zipball/27156e1912e5198397a93c857f3e8da3ad435035",
-                "reference": "27156e1912e5198397a93c857f3e8da3ad435035",
+                "url": "https://api.github.com/repos/monet-cms/dashboard/zipball/f3ea7e934e3e0213ae8d2a4e206ccf18816deaea",
+                "reference": "f3ea7e934e3e0213ae8d2a4e206ccf18816deaea",
                 "shasum": ""
             },
             "require": {
@@ -1282,18 +1282,10 @@
                 "livewire/livewire": "^2.10",
                 "monet/auth": "dev-main",
                 "monet/support": "dev-main",
-                "php": "^8.0",
-                "spatie/laravel-dashboard": "^2.1"
+                "php": "^8.0"
             },
             "default-branch": true,
             "type": "library",
-            "extra": {
-                "laravel": {
-                    "dont-discover": [
-                        "spatie/laravel-dashboard"
-                    ]
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Monet\\Framework\\Dashboard\\": "src/"
@@ -1313,7 +1305,7 @@
                 "issues": "https://github.com/monet-cms/dashboard/issues",
                 "source": "https://github.com/monet-cms/dashboard/tree/main"
             },
-            "time": "2022-03-06T05:24:39+00:00"
+            "time": "2022-03-06T07:15:58+00:00"
         },
         {
             "name": "monet/support",
@@ -2149,146 +2141,6 @@
                 }
             ],
             "time": "2021-09-25T23:10:38+00:00"
-        },
-        {
-            "name": "spatie/laravel-dashboard",
-            "version": "2.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spatie/laravel-dashboard.git",
-                "reference": "1b4a07c25b7b3d325fd3a6c0c2a1c5c329942338"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-dashboard/zipball/1b4a07c25b7b3d325fd3a6c0c2a1c5c329942338",
-                "reference": "1b4a07c25b7b3d325fd3a6c0c2a1c5c329942338",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/database": "^8.0|^9.0",
-                "illuminate/view": "^8.0|^9.0",
-                "livewire/livewire": "^2.0",
-                "php": "^7.4|^8.0",
-                "spatie/sun": "^1.1.1"
-            },
-            "require-dev": {
-                "orchestra/testbench": "^6.0|^7.0",
-                "phpunit/phpunit": "^9.3",
-                "spatie/phpunit-snapshot-assertions": "^4.2"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Spatie\\Dashboard\\DashboardServiceProvider"
-                    ],
-                    "aliases": {
-                        "Dashboard": "Spatie\\Dashboard\\Facades\\Dashboard"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Spatie\\Dashboard\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Freek Van der Herten",
-                    "email": "freek@spatie.be",
-                    "homepage": "https://spatie.be",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A dashboard for Laravel",
-            "homepage": "https://github.com/spatie/laravel-dashboard",
-            "keywords": [
-                "laravel-dashboard",
-                "spatie"
-            ],
-            "support": {
-                "issues": "https://github.com/spatie/laravel-dashboard/issues",
-                "source": "https://github.com/spatie/laravel-dashboard/tree/2.1.0"
-            },
-            "funding": [
-                {
-                    "url": "https://spatie.be/open-source/support-us",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/spatie",
-                    "type": "github"
-                }
-            ],
-            "time": "2022-02-08T10:41:01+00:00"
-        },
-        {
-            "name": "spatie/sun",
-            "version": "1.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spatie/sun.git",
-                "reference": "12d195e38adab756c067f04f3a0b07a5d18f018a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spatie/sun/zipball/12d195e38adab756c067f04f3a0b07a5d18f018a",
-                "reference": "12d195e38adab756c067f04f3a0b07a5d18f018a",
-                "shasum": ""
-            },
-            "require": {
-                "nesbot/carbon": "^2.32",
-                "php": "^8.0|^7.4"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.16",
-                "pestphp/pest": "^1.0",
-                "spatie/test-time": "^1.2",
-                "symfony/var-dumper": "^4.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Spatie\\Sun\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Freek Van der Herten",
-                    "email": "freek@spatie.be",
-                    "homepage": "https://spatie.be",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Get information on the position of the sun",
-            "homepage": "https://github.com/spatie/sun",
-            "keywords": [
-                "spatie",
-                "sun"
-            ],
-            "support": {
-                "issues": "https://github.com/spatie/sun/issues",
-                "source": "https://github.com/spatie/sun/tree/1.1.2"
-            },
-            "funding": [
-                {
-                    "url": "https://spatie.be/open-source/support-us",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/spatie",
-                    "type": "github"
-                }
-            ],
-            "time": "2021-07-22T08:48:57+00:00"
         },
         {
             "name": "symfony/console",
