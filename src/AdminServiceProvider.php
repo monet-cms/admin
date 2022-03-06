@@ -9,6 +9,9 @@ class AdminServiceProvider extends ServiceProvider
 {
     public function configurePackage(Package $package): void
     {
-        $package->name('monet.admin');
+        $package
+            ->name('monet.admin')
+            ->hasRoute('web')
+            ->hasAssets();
     }
 }
