@@ -10,8 +10,9 @@
     <body>
         <select>
             @foreach($dashboardNames as $dashboard)
-                <option value="{{$dashboard->id}}">
-                    {{$dashboard->name}}
+                <option value="{{$dashboard->id}}"
+                        @if($dashboard->id === $activeDashboard->id) selected @endif/>
+                {{$dashboard->name}}
                 </option>
             @endforeach
         </select>
