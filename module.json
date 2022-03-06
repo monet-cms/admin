@@ -1,0 +1,10 @@
+{
+    "name": "monet/admin",
+    "slug": "monet/admin",
+    "providers": [
+        "Monet\\Framework\\Admin\\AdminServiceProvider"
+    ],
+    "dependencies": [
+        "monet/dashboard"
+    ]
+}
