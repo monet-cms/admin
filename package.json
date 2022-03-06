@@ -1,0 +1,23 @@
+{
+    "name": "@monet/admin",
+    "version": "1.0.0",
+    "description": "The admin module for the Monet CMS.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/monet-cms/admin.git"
+    },
+    "keywords": [
+        "monet",
+        "laravel",
+        "admin"
+    ],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/monet-cms/admin/issues"
+    },
+    "homepage": "https://github.com/monet-cms/admin#readme",
+    "devDependencies": {
+        "laravel-mix": "^6.0.43"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "monet/admin",
+    "description": "The admin module for the Monet CMS.",
+    "keywords": [
+        "monet-cms",
+        "laravel",
+        "admin"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "monet/dashboard": "dev-main",
+        "monet/support": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Monet\\Framework\\Admin\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
