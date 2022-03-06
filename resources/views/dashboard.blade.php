@@ -17,6 +17,6 @@
             @endforeach
         </select>
 
-        <monet.dashboard::dashboard :dashboard="$dashboard"/>
+        <x-monet.dashboard::dashboard :dashboard="$dashboard"/>
     </body>
 </html>
