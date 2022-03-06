@@ -12,6 +12,7 @@ class AdminServiceProvider extends ServiceProvider
         $package
             ->name('monet.admin')
             ->hasRoute('web')
+            ->hasViews()
             ->hasAssets();
     }
 }

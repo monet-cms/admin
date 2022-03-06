@@ -12,8 +12,6 @@ class DashboardController extends Controller
 
         $dashboardNames = $user->dashboards()->pluck('id', 'name')->all();
 
-        dd($dashboardNames);
-
         $activeDashboard = $user->active_dashboard;
 
         return view('monet.admin::dashboard', [
