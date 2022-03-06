@@ -1268,12 +1268,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/monet-cms/dashboard.git",
-                "reference": "80cf03b90d7bac88ed8a75222e5986bb53750c4b"
+                "reference": "7261e94f23ec724d9eeccff038abd2f01ce9c12e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monet-cms/dashboard/zipball/80cf03b90d7bac88ed8a75222e5986bb53750c4b",
-                "reference": "80cf03b90d7bac88ed8a75222e5986bb53750c4b",
+                "url": "https://api.github.com/repos/monet-cms/dashboard/zipball/7261e94f23ec724d9eeccff038abd2f01ce9c12e",
+                "reference": "7261e94f23ec724d9eeccff038abd2f01ce9c12e",
                 "shasum": ""
             },
             "require": {
@@ -1304,7 +1304,7 @@
                 "issues": "https://github.com/monet-cms/dashboard/issues",
                 "source": "https://github.com/monet-cms/dashboard/tree/main"
             },
-            "time": "2022-03-06T08:21:32+00:00"
+            "time": "2022-03-06T21:36:16+00:00"
         },
         {
             "name": "monet/support",
@@ -1312,12 +1312,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/monet-cms/support.git",
-                "reference": "907d97db57005eae80bcccfdeaf78b666e79a20e"
+                "reference": "f3c4e75158e2e3cd1eab96c1b84c754c4a642dd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monet-cms/support/zipball/907d97db57005eae80bcccfdeaf78b666e79a20e",
-                "reference": "907d97db57005eae80bcccfdeaf78b666e79a20e",
+                "url": "https://api.github.com/repos/monet-cms/support/zipball/f3c4e75158e2e3cd1eab96c1b84c754c4a642dd0",
+                "reference": "f3c4e75158e2e3cd1eab96c1b84c754c4a642dd0",
                 "shasum": ""
             },
             "require": {
@@ -1345,7 +1345,7 @@
                 "issues": "https://github.com/monet-cms/support/issues",
                 "source": "https://github.com/monet-cms/support/tree/main"
             },
-            "time": "2022-03-06T05:11:38+00:00"
+            "time": "2022-03-06T21:33:29+00:00"
         },
         {
             "name": "monolog/monolog",
