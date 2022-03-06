@@ -8,7 +8,7 @@
         <title>Dashboard</title>
 
         @livewireStyles
-        <link rel="stylesheet" type="text/css" href="{{mix('/vendor/monet.admin/admin.css')}}"/>
+        <link rel="stylesheet" type="text/css" href="{{asset('/vendor/monet.admin/admin.css')}}"/>
     </head>
     <body>
         <select>
