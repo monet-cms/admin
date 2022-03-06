@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "957417b161949097c4d03c5e79db22a3",
+    "content-hash": "522a0b3028bbd285d5c076eb37abb7f1",
     "packages": [
         {
             "name": "brick/math",
@@ -1268,18 +1268,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/monet-cms/dashboard.git",
-                "reference": "f3ea7e934e3e0213ae8d2a4e206ccf18816deaea"
+                "reference": "389717c20e245c4b2b40ff57b2db68461676e839"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monet-cms/dashboard/zipball/f3ea7e934e3e0213ae8d2a4e206ccf18816deaea",
-                "reference": "f3ea7e934e3e0213ae8d2a4e206ccf18816deaea",
+                "url": "https://api.github.com/repos/monet-cms/dashboard/zipball/389717c20e245c4b2b40ff57b2db68461676e839",
+                "reference": "389717c20e245c4b2b40ff57b2db68461676e839",
                 "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^9.3",
                 "illuminate/support": "^9.3",
-                "livewire/livewire": "^2.10",
                 "monet/auth": "dev-main",
                 "monet/support": "dev-main",
                 "php": "^8.0"
@@ -1305,7 +1304,7 @@
                 "issues": "https://github.com/monet-cms/dashboard/issues",
                 "source": "https://github.com/monet-cms/dashboard/tree/main"
             },
-            "time": "2022-03-06T07:15:58+00:00"
+            "time": "2022-03-06T07:36:12+00:00"
         },
         {
             "name": "monet/support",
