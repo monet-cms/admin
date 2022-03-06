@@ -10,7 +10,9 @@ class DashboardController extends Controller
     {
         $user = $request->user();
 
-        $dashboardNames = $user->dashboards()->pluck('id', 'name')->all();
+        $dashboardNames = $user->dashboards()->pluck('name')->all();
+
+        dd($dashboardNames);
 
         $activeDashboard = $user->active_dashboard;
 
