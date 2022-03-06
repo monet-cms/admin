@@ -8,7 +8,7 @@
         <title>Dashboard</title>
 
         @livewireStyles
-        <link rel="stylesheet" href="{{mix('')}}">
+        <link rel="stylesheet" type="text/css" href="{{mix('/vendor/monet.admin/admin.css')}}"/>
     </head>
     <body>
         <select>
@@ -20,7 +20,9 @@
             @endforeach
         </select>
 
-        <x-monet.dashboard::dashboard :dashboard="$dashboard"/>
+        <div class="grid gap-2">
+            <x-monet.dashboard::dashboard :dashboard="$dashboard"/>
+        </div>
 
         @livewireScripts
     </body>
