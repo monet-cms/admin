@@ -1268,12 +1268,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/monet-cms/dashboard.git",
-                "reference": "8ca44c5068e05be34f26ae47a57f943ca8973564"
+                "reference": "80cf03b90d7bac88ed8a75222e5986bb53750c4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monet-cms/dashboard/zipball/8ca44c5068e05be34f26ae47a57f943ca8973564",
-                "reference": "8ca44c5068e05be34f26ae47a57f943ca8973564",
+                "url": "https://api.github.com/repos/monet-cms/dashboard/zipball/80cf03b90d7bac88ed8a75222e5986bb53750c4b",
+                "reference": "80cf03b90d7bac88ed8a75222e5986bb53750c4b",
                 "shasum": ""
             },
             "require": {
@@ -1304,7 +1304,7 @@
                 "issues": "https://github.com/monet-cms/dashboard/issues",
                 "source": "https://github.com/monet-cms/dashboard/tree/main"
             },
-            "time": "2022-03-06T07:39:10+00:00"
+            "time": "2022-03-06T08:21:32+00:00"
         },
         {
             "name": "monet/support",
