@@ -9,14 +9,14 @@
     </head>
     <body>
         <select>
-            @foreach($dashboardNames as $dashboard)
-                <option value="{{$dashboard->id}}"
-                        @if($dashboard->id === $activeDashboard->id) selected @endif/>
-                {{$dashboard->name}}
+            @foreach($dashboardNames as $id => $name)
+                <option value="{{$id}}"
+                        @if($id === $dashboard->id) selected @endif/>
+                {{$name}}
                 </option>
             @endforeach
         </select>
 
-        <monet.dashboard::dashboard :dashboard="$activeDashboard"/>
+        <monet.dashboard::dashboard :dashboard="$dashboard"/>
     </body>
 </html>
