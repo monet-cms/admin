@@ -6,6 +6,7 @@ use Livewire\Livewire;
 use Monet\Framework\Admin\Http\Livewire\Tiles\DummyTile;
 use Monet\Framework\Support\Services\Package;
 use Monet\Framework\Support\Services\ServiceProvider;
+use Spatie\Menu\Laravel\Facades\Menu;
 
 class AdminServiceProvider extends ServiceProvider
 {
@@ -20,6 +21,10 @@ class AdminServiceProvider extends ServiceProvider
 
     protected function packageBooted(): void
     {
+        $this->app->singleton('admin-menu', function() {
+            return Menu::new();
+        });
+
         $this->registerLivewireComponents();
     }
 

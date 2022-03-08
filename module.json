@@ -5,6 +5,7 @@
         "Monet\\Framework\\Admin\\AdminServiceProvider"
     ],
     "dependencies": [
-        "monet/dashboard"
+        "monet/dashboard",
+        "monet/menu"
     ]
 }
